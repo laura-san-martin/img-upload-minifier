@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <title>Image Minifier before upload</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Select Image - <input id="image-input" type="file" accept="image/*" /></td>
+                </tr>
+                <tr>
+                    <td>Max. width - <input id="max-width" type="number" min="1" value="800" /> px</td>
+                </tr>
+                <tr>
+                    <td>Quality - <input id="quality" type="number" min="1" max="100" value="10" /> %</td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="loadImage();" value="TEST"></td>
+                </tr>
+                <tr>
+                    <td>
+                        Result:
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
